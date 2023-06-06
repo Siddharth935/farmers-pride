@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shetkarifarmer">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/leaf"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ShetkariFarmer">
+        <activity
+            android:name=".WeatherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CropActivity.FullScreenDetailInfoAboutCrop"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileActivity.VideoTutorial"
+            android:exported="true"
+            android:theme="@style/Theme.ShetkariFarmer.statusBarforVideo" />
+        <activity
+            android:name=".ProfileActivity.Lanugage"
+            android:exported="true"
+            android:theme="@style/Theme.ShetkariFarmer.statusBar" />
+        <activity
+            android:name=".ProfileActivity.MyShop"
+            android:exported="true"
+            android:theme="@style/Theme.ShetkariFarmer.statusBar" />
+        <activity
+            android:name=".SelectLanguage"
+            android:exported="true" />
+        <activity
+            android:name=".IndustrialActivity.SugarActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ShetkariFarmer" />
+        <activity
+            android:name=".ProfileActivity.EditProfile"
+            android:exported="true"
+            android:theme="@style/Theme.ShetkariFarmer.statusBar" />
+        <activity
+            android:name=".ProfileActivity.SeeProfile"
+            android:exported="true"
+            android:theme="@style/Theme.ShetkariFarmer" />
+        <activity
+            android:name=".RegistrationForm"
+            android:exported="true"
+            android:theme="@style/Theme.ShetkariFarmer.statusBar" />
+        <activity
+            android:name=".CropActivity.Ginger"
+            android:exported="true"
+            android:theme="@style/Theme.ShetkariFarmer.statusBar" />
+        <activity
+            android:name=".CropActivity.Rice"
+            android:exported="true"
+            android:theme="@style/Theme.ShetkariFarmer.statusBar" />
+        <activity
+            android:name=".CropActivity.Peanut"
+            android:exported="true"
+            android:theme="@style/Theme.ShetkariFarmer.statusBar" />
+        <activity
+            android:name=".CropActivity.Corn"
+            android:exported="true"
+            android:theme="@style/Theme.ShetkariFarmer.statusBar" />
+        <activity
+            android:name=".CropActivity.Potato"
+            android:exported="true"
+            android:theme="@style/Theme.ShetkariFarmer.statusBar" />
+        <activity
+            android:name=".CropActivity.Onion"
+            android:exported="true"
+            android:theme="@style/Theme.ShetkariFarmer.statusBar" />
+        <activity
+            android:name=".Newss.FullNews"
+            android:exported="true"
+            android:theme="@style/Theme.ShetkariFarmer.statusBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ShetkariFarmer.hidenavAndStatusBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.ShetkariFarmer.hidenavAndStatusBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

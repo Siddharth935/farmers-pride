@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CropActivity.Rice">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/custom_toolbar" />
+
+            <ImageView
+                android:id="@+id/CropImage"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:shapeAppearanceOverlay="@style/CircularImage" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/selectCropImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/green"
+                android:fontFamily="@font/alike_angular"
+                android:text="@string/select_crop_image"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:cornerRadius="15dp"
+                app:elevation="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="@string/detail_about_farm"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="@string/what_you_want_to_sell_please_enter_detail_below"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="@string/crop_name"
+                    android:textColorHint="@color/black"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:boxStrokeColor="@color/black"
+                    app:hintTextColor="@color/black">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/CropName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/crop"
+                        android:drawablePadding="10dp"
+                        android:drawableTint="@color/black"
+                        android:fontFamily="@font/alike_angular"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/black" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="@string/how_many_kg_you_have"
+                    android:textColorHint="@color/black"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:boxStrokeColor="@color/black"
+                    app:hintTextColor="@color/black">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/CropKG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/kilogram"
+                        android:drawablePadding="10dp"
+                        android:drawableTint="@color/black"
+                        android:fontFamily="@font/alike_angular"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/black" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="@string/enter_your_rate_per_kg"
+                    android:textColorHint="@color/black"
+                    app:boxCornerRadiusBottomEnd="10dp"
+                    app:boxCornerRadiusBottomStart="10dp"
+                    app:boxCornerRadiusTopEnd="10dp"
+                    app:boxCornerRadiusTopStart="10dp"
+                    app:boxStrokeColor="@color/black"
+                    app:hintTextColor="@color/black">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/Rate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/rupee"
+                        android:drawablePadding="10dp"
+                        android:drawableTint="@color/black"
+                        android:fontFamily="@font/alike_angular"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/black" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                <!--                <com.google.android.material.textfield.TextInputLayout-->
+                <!--                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginStart="10dp"-->
+                <!--                    android:layout_marginTop="10dp"-->
+                <!--                    android:layout_marginEnd="10dp"-->
+                <!--                    android:layout_marginBottom="10dp"-->
+                <!--                    android:hint="@string/enter_your_name"-->
+                <!--                    android:textColorHint="@color/black"-->
+                <!--                    app:boxCornerRadiusBottomEnd="10dp"-->
+                <!--                    app:boxCornerRadiusBottomStart="10dp"-->
+                <!--                    app:boxCornerRadiusTopEnd="10dp"-->
+                <!--                    app:boxCornerRadiusTopStart="10dp"-->
+                <!--                    app:boxStrokeColor="@color/black"-->
+                <!--                    app:hintTextColor="@color/black">-->
+
+                <!--                    <com.google.android.material.textfield.TextInputEditText-->
+                <!--                        android:id="@+id/farmerName"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:drawableStart="@drawable/ic_baseline_person_24"-->
+                <!--                        android:drawablePadding="10dp"-->
+                <!--                        android:drawableTint="@color/black"-->
+                <!--                        android:fontFamily="@font/alike_angular"-->
+                <!--                        android:inputType="textPersonName"-->
+                <!--                        android:textColor="@color/black" />-->
+                <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+                <!--                <com.google.android.material.textfield.TextInputLayout-->
+                <!--                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginStart="10dp"-->
+                <!--                    android:layout_marginTop="10dp"-->
+                <!--                    android:layout_marginEnd="10dp"-->
+                <!--                    android:layout_marginBottom="10dp"-->
+                <!--                    android:hint="@string/enter_your_mobile_number"-->
+                <!--                    android:textColorHint="@color/black"-->
+                <!--                    app:boxCornerRadiusBottomEnd="10dp"-->
+                <!--                    app:boxCornerRadiusBottomStart="10dp"-->
+                <!--                    app:boxCornerRadiusTopEnd="10dp"-->
+                <!--                    app:boxCornerRadiusTopStart="10dp"-->
+                <!--                    app:boxStrokeColor="@color/black"-->
+                <!--                    app:counterTextColor="@color/black"-->
+                <!--                    app:hintTextColor="@color/black">-->
+
+                <!--                    <com.google.android.material.textfield.TextInputEditText-->
+                <!--                        android:id="@+id/farmerMobileNumber"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:drawableStart="@drawable/fui_ic_phone_white_24dp"-->
+                <!--                        android:drawablePadding="10dp"-->
+                <!--                        android:drawableTint="@color/black"-->
+                <!--                        android:fontFamily="@font/alike_angular"-->
+                <!--                        android:hint=""-->
+                <!--                        android:inputType="number"-->
+                <!--                        android:textColor="@color/black" />-->
+                <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+                <!--                <com.google.android.material.textfield.TextInputLayout-->
+                <!--                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginStart="10dp"-->
+                <!--                    android:layout_marginTop="10dp"-->
+                <!--                    android:layout_marginEnd="10dp"-->
+                <!--                    android:layout_marginBottom="10dp"-->
+                <!--                    android:hint="@string/optional_mobile_number"-->
+                <!--                    android:textColorHint="@color/black"-->
+                <!--                    app:boxCornerRadiusBottomEnd="10dp"-->
+                <!--                    app:boxCornerRadiusBottomStart="10dp"-->
+                <!--                    app:boxCornerRadiusTopEnd="10dp"-->
+                <!--                    app:boxCornerRadiusTopStart="10dp"-->
+                <!--                    app:boxStrokeColor="@color/black"-->
+                <!--                    app:counterTextColor="@color/black"-->
+                <!--                    app:hintTextColor="@color/black">-->
+
+                <!--                    <com.google.android.material.textfield.TextInputEditText-->
+                <!--                        android:id="@+id/farmerMobileNumberTwo"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:drawableStart="@drawable/fui_ic_phone_white_24dp"-->
+                <!--                        android:drawablePadding="10dp"-->
+                <!--                        android:drawableTint="@color/black"-->
+                <!--                        android:fontFamily="@font/alike_angular"-->
+
+                <!--                        android:inputType="number"-->
+                <!--                        android:textColor="@color/black" />-->
+                <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+                <!--                <com.google.android.material.textfield.TextInputLayout-->
+                <!--                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginStart="10dp"-->
+                <!--                    android:layout_marginTop="10dp"-->
+                <!--                    android:layout_marginEnd="10dp"-->
+                <!--                    android:layout_marginBottom="10dp"-->
+                <!--                    android:hint="@string/enter_your_email_id"-->
+                <!--                    android:textColorHint="@color/black"-->
+                <!--                    app:boxCornerRadiusBottomEnd="10dp"-->
+                <!--                    app:boxCornerRadiusBottomStart="10dp"-->
+                <!--                    app:boxCornerRadiusTopEnd="10dp"-->
+                <!--                    app:boxCornerRadiusTopStart="10dp"-->
+                <!--                    app:boxStrokeColor="@color/black"-->
+                <!--                    app:hintTextColor="@color/black">-->
+
+                <!--                    <com.google.android.material.textfield.TextInputEditText-->
+                <!--                        android:id="@+id/farmerEmail"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:drawableStart="@drawable/fui_ic_mail_white_24dp"-->
+                <!--                        android:drawablePadding="10dp"-->
+                <!--                        android:drawableTint="@color/black"-->
+                <!--                        android:fontFamily="@font/alike_angular"-->
+                <!--                        android:inputType="textEmailAddress"-->
+                <!--                        android:textColor="@color/black" />-->
+                <!--                </com.google.android.material.textfield.TextInputLayout>-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alike_angular"
+                        android:text="@string/name"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/farmerName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alike_angular"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alike_angular"
+                        android:text="@string/mobile_no"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/farmerMobileNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alike_angular"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alike_angular"
+                        android:text="@string/mobile_no_optional"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/farmerMobileNumberTwo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alike_angular"
+                        android:text="@string/not_uploaded"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alike_angular"
+                        android:text="@string/email_id"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/farmerEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alike_angular"
+                        android:text="@string/not_uploaded"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alike_angular"
+                        android:text="@string/city"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/City"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alike_angular"
+                        android:text=""
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/submit"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="50dp"
+                    android:backgroundTint="@color/green"
+                    android:fontFamily="@font/alike_angular"
+                    android:text="@string/submit"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:cornerRadius="15dp"
+                    app:elevation="15dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

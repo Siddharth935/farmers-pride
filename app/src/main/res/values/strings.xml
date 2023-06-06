@@ -1,0 +1,1246 @@
+<resources>
+    <string name="app_name">Farmer</string>
+    <string name="farmer_s_pride">Farmer\'s Pride</string>
+    <string name="sign_in_with_phone">Sign in with phone</string>
+    <string name="sign_in_with_google">Sign in with google</string>
+    <string name="farmers_partner">Farmers Partner</string>
+    <string name="by">By</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_mobile_number">Enter Your Mobile Number</string>
+    <string name="submit">Submit</string>
+    <string name="enter_your_email_id">Enter Your Email ID (Optional)</string>
+    <string name="optional_mobile_number">Mobile Number (Optional)</string>
+    <string name="crop_name">Crop Name:-</string>
+    <string name="select_crop_image">Select Crop Image</string>
+    <string name="enter_your_location">Enter Your Location</string>
+    <string name="enter_your_rate_per_kg">Enter Your Rate Per KG</string>
+    <string name="how_many_kg_you_have">How Many KG You Have</string>
+    <string name="enter_detail_about_crop">Enter Detail About Crop</string>
+    <string name="registration_form">Registration Form</string>
+    <string name="enter_your_satbarano">Enter Your satBaraNo (7 12)</string>
+    <string name="city">City :-</string>
+    <string name="pincode">Pincode :-</string>
+    <string name="state">State :-</string>
+    <string name="country">Country :-</string>
+    <string name="address">Address :-</string>
+    <string name="name">Name :-</string>
+    <string name="mobile_no_optional">Mobile No (Optional) :- </string>
+    <string name="not_uploaded">Not Uploaded</string>
+    <string name="email_id">Email ID :- </string>
+    <string name="detail_about_farm">Detail About farm</string>
+    <string name="what_you_want_to_sell_please_enter_detail_below">What You Want To Sell Please Enter Detail Below :-</string>
+    <string name="mobile_no">Mobile No :-</string>
+    <string name="satbara_no">SatBara No :-</string>
+    <string name="edit">Edit</string>
+    <string name="edit_your_profile">Edit Your Profile</string>
+    <string name="profile">Profile</string>
+    <string name="enter_your_detail">Enter Your Detail</string>
+    <string name="enter_detail_about_sugarcane">Enter Detail About SugarCane</string>
+    <string name="how_many_acre_you_grown_up_sugarcane">How many Acre You grown up SugarCane</string>
+    <string name="approx_how_many_tones_sugarcane_you_have">Approx How Many Tones Sugarcane You Have</string>
+    <string name="click_here_to_read_news"><![CDATA[Click here to read news —>]]></string>
+    <string name="hii">Hii</string>
+    <string name="select_your_language">Select your Language</string>
+    <string name="next">next</string>
+    <string name="headline">Headline :-</string>
+    <string name="description">Description :-</string>
+    <string name="crop_kg_tone">Crop KG / Tone :-</string>
+    <string name="rate">Rate :-</string>
+    <string name="location">Location :-</string>
+    <string name="click_here_full_view_information">click Here Full View Information -></string>
+    <string name="potato">Potato</string>
+    <string name="corn">Corn</string>
+    <string name="onion">Onion</string>
+    <string name="peanut">Peanut</string>
+    <string name="rice">Rice</string>
+    <string name="ginger">Ginger</string>
+    <string name="apple">Apple</string>
+    <string name="coconut">Coconut</string>
+    <string name="guava">Guava</string>
+    <string name="mango">Mango</string>
+    <string name="sugar_factory">Sugar Factory</string>
+    <string name="Vegetable">Vegetable</string>
+    <string name="Fruits">Fruits</string>
+    <string name="Factory">Factory</string>
+    <string name="news_section">News Section</string>
+    <string name="slide_your_language_wise_news">Slide a news seaction according to your language</string>
+
+    <string name="Hindi">Hindi</string>
+    <string name="Marathi">Marathi</string>
+    <string name="Punjabi">Punjabi</string>
+    <string name="Assamese">Assamese</string>
+
+    <string name="Location_is_off_Please_Enable_location">Location is off. Please Enable location</string>
+    <string name="yes">Yes</string>
+    <string name="setting">Setting</string>
+    <string name="my_shop">My Shop</string>
+    <string name="today_s_weather">Today\'s Weather</string>
+
+    <string name="enter_your_crop_weight">Enter Your Crop Weight</string>
+    <string name="uploaded">Uploaded Successfully</string>
+
+    <string-array name="array_default_state">
+        <item>Select Your State</item>
+    </string-array>
+
+    <string-array name="array_indian_states">
+        <item>Select Your State</item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Ladakh</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Puducherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttarakhand</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+    </string-array>
+
+
+    <string-array name="array_default_districts">
+        <item>Select Your District</item>
+    </string-array>
+
+    <string-array name="array_andhra_pradesh_districts">
+        <item>Select Your District</item>
+        <item>The Kirlampudi Sugar Mills Ltd.</item>
+        <item>Shri Sarvaraya Sugar Ltd.</item>
+        <item>Nava Bharat Ferro Alloys Ltd.</item>
+        <item>Andhra Sugars Ltd.</item>
+        <item>The Palakol Coop. Sugars ltd.</item>
+        <item>VVS Sugars (The Jeypore Sugar Co. Ltd.)</item>
+        <item>West Godavari Coop. Sugars Ltd.</item>
+        <item>The Andhra Sugars Ltd.</item>
+        <item>The Chodavaram Coop. Sugars Ltd.</item>
+        <item>Anakapalle Coop  Agricultural and Industrial Society Ltd.</item>
+        <item>Etikoppaka Coop. Agril and Indl. Society Ltd.</item>
+        <item>The Thandava Coop. Sugars Ltd.</item>
+        <item>Shri Vijayarama Gajapati Coop. Sugars Ltd.</item>
+        <item>Amadavalasa Coop Agricultural and Industrial Society Ltd.</item>
+        <item>Varalakshmi Sugars Ltd.</item>
+        <item>The KCP Sugar and Industries Corpn. Ltd.</item>
+        <item>The KCP Sugar and Industries Corpn. Ltd.</item>
+        <item>Delta Suagar Ltd.</item>
+        <item>The Nizam Sugar Factory Ltd.</item>
+        <item>The Nizamabad Coop. Sugar Factory Ltd.</item>
+        <!--        <item>West</item>-->
+        <!--        <item>West</item>-->
+        <!--        <item>West</item>-->
+        <!--        <item>West</item>-->
+        <!--        <item>West</item>-->
+        <!--        <item>West</item>-->
+        <!--        <item>West</item>-->
+        <!--        <item>West</item>-->
+        <!--        <item>West</item>-->
+        <!--        <item>West</item>-->
+        <!--        <item>West</item>-->
+        <!--        <item>West</item>-->
+        <!--        <item>West</item>-->
+        <!--        <item>West</item>-->
+        <!--        <item>West</item>-->
+        <!--        <item>West</item>-->
+        <!--        <item>West</item>-->
+        <!--        <item>West</item>-->
+        <!--        <item>West</item>-->
+        <!--        <item>West</item>-->
+        <!--        <item>West</item>-->
+        <!--        <item>West</item>-->
+    </string-array>
+
+    <string-array name="array_arunachal_pradesh_districts">
+        <item>Select Your District</item>
+        <item>Anjaw</item>
+        <item>Siang</item>
+        <item>Changlang</item>
+        <item>Dibang Valley</item>
+        <item>East Kameng</item>
+        <item>East Siang</item>
+        <item>Kamle</item>
+        <item>Kra Daadi</item>
+        <item>Kurung Kumey</item>
+        <item>Lepa Rada</item>
+        <item>Lohit</item>
+        <item>Longding</item>
+        <item>Lower Dibang Valley</item>
+        <item>Lower Siang</item>
+        <item>Lower Subansiri</item>
+        <item>Namsai</item>
+        <item>Pakke Kessang</item>
+        <item>Papum Pare</item>
+        <item>Shi Yomi</item>
+        <item>Tawang</item>
+        <item>Tirap</item>
+        <item>Upper Siang</item>
+        <item>Upper Subansiri</item>
+        <item>West Kameng</item>
+        <item>West Siang</item>
+    </string-array>
+
+    <string-array name="array_assam_districts">
+        <item>Select Your District</item>
+        <item>The Assam Coop. Sugar Mils Ltd.</item>
+        <item>Arihant Sugar Ltd.</item>
+        <item>Nowgong Coop. Sugar Mills Ltd.</item>
+        <!--        <item>Biswanath</item>-->
+        <!--        <item>Bongaigaon</item>-->
+        <!--        <item>Cachar</item>-->
+        <!--        <item>Charaideo</item>-->
+        <!--        <item>Chirang</item>-->
+        <!--        <item>Darrang</item>-->
+        <!--        <item>Dhemaji</item>-->
+        <!--        <item>Dhubri</item>-->
+        <!--        <item>Dibrugarh</item>-->
+        <!--        <item>Dima Hasao</item>-->
+        <!--        <item>Goalpara</item>-->
+        <!--        <item>Golaghat</item>-->
+        <!--        <item>Hailakandi</item>-->
+        <!--        <item>Hojai</item>-->
+        <!--        <item>Jorhat</item>-->
+        <!--        <item>Kamrup</item>-->
+        <!--        <item>Kamrup Metropolitan</item>-->
+        <!--        <item>Karbi Anglong</item>-->
+        <!--        <item>Karimganj</item>-->
+        <!--        <item>Kokrajhar</item>-->
+        <!--        <item>Lakhimpur</item>-->
+        <!--        <item>Majuli</item>-->
+        <!--        <item>Morigaon</item>-->
+        <!--        <item>Nagaon</item>-->
+        <!--        <item>Nalbari</item>-->
+        <!--        <item>Sivasagar</item>-->
+        <!--        <item>Sonitpur</item>-->
+        <!--        <item>South Salmara-Mankachar</item>-->
+        <!--        <item>Tinsukia</item>-->
+        <!--        <item>Udalguri</item>-->
+        <!--        <item>West Karbi Anglong</item>-->
+    </string-array>
+
+    <string-array name="array_bihar_districts">
+        <item>Select Your District</item>
+        <item>Bihar State Sugar Corpn. Ltd.</item>
+        <item>Bihar State Sugar Corpn Ltd. </item>
+        <item>The Bihar State Sugar Corpn. Ltd.</item>
+        <item>New India Sugar Mills Ltd.</item>
+        <item>Bihar State Sugar Corpn. Ltd.</item>
+        <item>Bihar State Sugar Corpn.Ltd</item>
+        <!--        <item>Righa Sugar Co. Ltd.</item>-->
+        <item>Motihari Chini Udyog Ltd.</item>
+        <item>M.P.Chini Industries Ltd.</item>
+        <item>Champaran Sugar Co. Ltd.</item>
+        <item>Bagaha Chini Mills Ltd.</item>
+        <item>The Oudh Sugar Mills Ltd.</item>
+        <item>Harinagar Sugar Mills Ltd.</item>
+        <item>Champaran Sugar Co. Ltd.</item>
+        <item>Bharat Sugar Mills Ltd.</item>
+        <item>Sasa Musa Sugar Works Pvt. Ltd.</item>
+        <item>The Vishnu Sugar Mills Ltd.</item>
+        <item>Cawnpore Sugar Works Ltd.</item>
+        <!--        <item>Lakhisarai</item>-->
+        <!--        <item>Madhepura</item>-->
+        <!--        <item>Madhubani</item>-->
+        <!--        <item>Munger</item>-->
+        <!--        <item>Muzaffarpur</item>-->
+        <!--        <item>Nalanda</item>-->
+        <!--        <item>Nawada</item>-->
+        <!--        <item>Patna</item>-->
+        <!--        <item>Purnia</item>-->
+        <!--        <item>Rohtas</item>-->
+        <!--        <item>Saharsa</item>-->
+        <!--        <item>Samastipur</item>-->
+        <!--        <item>Saran</item>-->
+        <!--        <item>Sheikhpura</item>-->
+        <!--        <item>Sheohar</item>-->
+        <!--        <item>Sitamarhi</item>-->
+        <!--        <item>Siwan</item>-->
+        <!--        <item>Supaul</item>-->
+        <!--        <item>Vaishali</item>-->
+        <!--        <item>West Champaran</item>-->
+    </string-array>
+
+    <string-array name="array_chhattisgarh_districts">
+        <item>Select Your District</item>
+        <item>Bhoramdev Sahakari Sakhar Utpadak Karkhana Maryadit</item>
+        <item>M/s Maa Mahamaya SSK Ltd.</item>
+        <!--        <item>Balrampur Ramanujganj</item>-->
+        <!--        <item>Bastar</item>-->
+        <!--        <item>Bemetara</item>-->
+        <!--        <item>Bijapur</item>-->
+        <!--        <item>Bilaspur</item>-->
+        <!--        <item>Dantewada</item>-->
+        <!--        <item>Dhamtari</item>-->
+        <!--        <item>Durg</item>-->
+        <!--        <item>Gariaband</item>-->
+        <!--        <item>Gaurela Pendra Marwahi</item>-->
+        <!--        <item>Janjgir Champa</item>-->
+        <!--        <item>Jashpur</item>-->
+        <!--        <item>Kabirdham</item>-->
+        <!--        <item>Kanker</item>-->
+        <!--        <item>Kondagaon</item>-->
+        <!--        <item>Korba</item>-->
+        <!--        <item>Koriya</item>-->
+        <!--        <item>Mahasamund</item>-->
+        <!--        <item>Mungeli</item>-->
+        <!--        <item>Narayanpur</item>-->
+        <!--        <item>Raigarh</item>-->
+        <!--        <item>Raipur</item>-->
+        <!--        <item>Rajnandgaon</item>-->
+        <!--        <item>Sukma</item>-->
+        <!--        <item>Surajpur</item>-->
+        <!--        <item>Surguja</item>-->
+    </string-array>
+
+    <string-array name="array_goa_districts">
+        <item>Select Your District</item>
+        <item>Sanjivani SSK Ltd.</item>
+        <!--        <item>South Goa</item>-->
+    </string-array>
+
+    <string-array name="array_gujarat_districts">
+        <item>Select Your District</item>
+        <item>Shri Khedut Sahakari Khand Udyog Mandi Ltd.</item>
+        <item>Shree Madhi Vibhag S. Khand Udyog Mandli Ltd.</item>
+        <item>Shree Chalthan Vibhag Khand Udyog Sahakari Mandli Ltd.</item>
+        <item>Shree Sayan Vibhag Sahakari Khand Udyog Mandli Ltd.</item>
+        <item>Shree Mahuva Pradesh Sahakari Khand Udyog Mandli Ltd.</item>
+        <item>Shri Ukai Pradesh Sahakari Khand Udyog Mandli Ltd.</item>
+        <item>Shree Khedut Sahakari Khand Udyog Mandli Ltd.</item>
+        <item>Shri Kamrej Vibhag Sahakari Khand Udyag Mandli Ltd.</item>
+        <item>Shree Valod Pradesh Khand Udyag Sahakari Mandli Ltd.</item>
+        <item>The Sahakari Khand Udyog Mandli Ltd.</item>
+        <item>Shri Maroli Vibhag Khand Udyog Sahakari Mandli Ltd.</item>
+        <item>Shree Valsad Sahakari Khand Udyog Mandli Ltd.</item>
+        <item>Shri Bileshwar Khand Udyog Khedut Sahakari Mandli Ltd.</item>
+        <item>Shri Una Taluka Sahakari Khand Udyog Mandli Ltd.</item>
+        <item>Shree Talala Taluka Sahakari Khnad Udyog Mandli Ltd.</item>
+        <item>Charotar Sahakari Khand Udyog Mandli Ltd.</item>
+        <item>Shree Ganesh Khand Udyog Sahakari Mandli Ltd.</item>
+        <item>Shri Revakhand Udyog Sahakari Mandli Ltd.</item>
+        <item>Shri Narmadakhand Udyog Sahakari Mandli Ltd.</item>
+        <item>Sardar Vallabhai Patel Khand Udyog Coop. Societies Ltd.</item>
+        <item>Vadodara Distt. Coop. Sugarcane Growers Union Ltd.</item>
+        <item>Sardar Coop. Sugar Industries Ltd.</item>
+        <item>Shree Govardhan Sugar Industries Ltd.</item>
+        <!--        <item>Panchmahal</item>-->
+        <!--        <item>Patan</item>-->
+        <!--        <item>Porbandar</item>-->
+        <!--        <item>Rajkot</item>-->
+        <!--        <item>Sabarkantha</item>-->
+        <!--        <item>Surat</item>-->
+        <!--        <item>Surendranagar</item>-->
+        <!--        <item>Tapi</item>-->
+        <!--        <item>Vadodara</item>-->
+        <!--        <item>Valsad</item>-->
+    </string-array>
+
+    <string-array name="array_haryana_districts">
+        <item>Select Your District</item>
+        <item>The Saraswati Sugar Mills</item>
+        <item>Naraingarh Sugar Mills Ltd.</item>
+        <item>The Haryana Coop. Sugar Mills Ltd</item>
+        <item>The Maham Coop. Sugar Mills Ltd</item>
+        <item>The Panipat Coop. Sugar Mills Ltd.</item>
+        <item>The Karnal Coop. Sugar Mills Ltd.</item>
+        <item>Sonepat Coop. Sugar Mills Ltd</item>
+        <item>Shahbad Coop. Sugar Mills Ltd</item>
+        <item>The Jind Coop. Sugar Mills Ltd.</item>
+        <item>The Palwal Coop. Sugar Mills Ltd</item>
+        <item>The Kaithal Coop. Sugar Mills Ltd</item>
+        <item>The Bhuna Coop. Sugar Mills Ltd</item>
+        <item>M/S Piccadily Agro Industries Ltd.</item>
+        <item>Chaudhery Devi Lal Coop. Sugar Mills Ltd.</item>
+        <item>The Haryana State Fed. of Coop Cooperative Sugar Mills Ltd.</item>
+        <item>M/s. Hafed Sugar Mills</item>
+        <!--        <item>Panipat</item>-->
+        <!--        <item>Rewari</item>-->
+        <!--        <item>Rohtak</item>-->
+        <!--        <item>Sirsa</item>-->
+        <!--        <item>Sonipat</item>-->
+        <!--        <item>Yamunanagar</item>-->
+    </string-array>
+
+    <string-array name="array_himachal_pradesh_districts">
+        <item>Select Your District</item>
+        <item>Bilaspur</item>
+        <item>Chamba</item>
+        <item>Hamirpur</item>
+        <item>Kangra</item>
+        <item>Kinnaur</item>
+        <item>Kullu</item>
+        <item>Lahaul Spiti</item>
+        <item>Mandi</item>
+        <item>Shimla</item>
+        <item>Sirmaur</item>
+        <item>Solan</item>
+        <item>Una</item>
+    </string-array>
+
+    <string-array name="array_jammu_kashmir_districts">
+        <item>Select Your District</item>
+        <item>Anantnag</item>
+        <item>Bandipora</item>
+        <item>Baramulla</item>
+        <item>Budgam</item>
+        <item>Doda</item>
+        <item>Ganderbal</item>
+        <item>Jammu</item>
+        <item>Kathua</item>
+        <item>Kishtwar</item>
+        <item>Kulgam</item>
+        <item>Kupwara</item>
+        <item>Poonch</item>
+        <item>Pulwama</item>
+        <item>Rajouri</item>
+        <item>Ramban</item>
+        <item>Reasi</item>
+        <item>Samba</item>
+        <item>Shopian</item>
+        <item>Srinagar</item>
+        <item>Udhampur</item>
+    </string-array>
+
+    <string-array name="array_jharkhand_districts">
+        <item>Select Your District</item>
+        <item>Bokaro</item>
+        <item>Chatra</item>
+        <item>Deoghar</item>
+        <item>Dhanbad</item>
+        <item>Dumka</item>
+        <item>East Singhbhum</item>
+        <item>Garhwa</item>
+        <item>Giridih</item>
+        <item>Godda</item>
+        <item>Gumla</item>
+        <item>Hazaribagh</item>
+        <item>Jamtara</item>
+        <item>Khunti</item>
+        <item>Koderma</item>
+        <item>Latehar</item>
+        <item>Lohardaga</item>
+        <item>Pakur</item>
+        <item>Palamu</item>
+        <item>Ramgarh</item>
+        <item>Ranchi</item>
+        <item>Sahebganj</item>
+        <item>Seraikela Kharsawan</item>
+        <item>Simdega</item>
+        <item>West Singhbhum</item>
+    </string-array>
+
+    <string-array name="array_karnataka_districts">
+        <item>Select Your District</item>
+        <item>Pandavapura SSK Ltd.</item>
+        <item>Mysore Sugar Co. Ltd.</item>
+        <item>Chamundeshwari Sugars Ltd.</item>
+        <item>Coramandal Sugars Ltd.</item>
+        <item>The India Sugar and Refineries Ltd.</item>
+        <item>The Sundri Sugar Ltd.</item>
+        <item>Siruguppa Sugars and Chemicals Pvt. Ltd.</item>
+        <item>Shamanur Sugars Ltd.</item>
+        <item>Salarjung Sugar Mills Ltd.</item>
+        <item>Gangavati Sugars Ltd..</item>
+        <!--        <item>Dakshina Kannada</item>-->
+        <!--        <item>Davanagere</item>-->
+        <!--        <item>Dharwad</item>-->
+        <!--        <item>Gadag</item>-->
+        <!--        <item>Gulbarga</item>-->
+        <!--        <item>Hassan</item>-->
+        <!--        <item>Haveri</item>-->
+        <!--        <item>Kodagu</item>-->
+        <!--        <item>Kolar</item>-->
+        <!--        <item>Koppal</item>-->
+        <!--        <item>Mandya</item>-->
+        <!--        <item>Mysore</item>-->
+        <!--        <item>Raichur</item>-->
+        <!--        <item>Ramanagara</item>-->
+        <!--        <item>Shimoga</item>-->
+        <!--        <item>Tumkur</item>-->
+        <!--        <item>Udupi</item>-->
+        <!--        <item>Uttara Kannada</item>-->
+        <!--        <item>Vijayanagara</item>-->
+        <!--        <item>Vijayapura</item>-->
+        <!--        <item>Yadgir</item>-->
+    </string-array>
+
+    <string-array name="array_kerala_districts">
+        <item>Select Your District</item>
+        <item>The Travancore Sugar and Chemicals Ltd.</item>
+        <item>The Coop. Sugars Ltd.</item>
+        <!--        <item>Idukki</item>-->
+        <!--        <item>Kannur</item>-->
+        <!--        <item>Kasaragod</item>-->
+        <!--        <item>Kollam</item>-->
+        <!--        <item>Kottayam</item>-->
+        <!--        <item>Kozhikode</item>-->
+        <!--        <item>Malappuram</item>-->
+        <!--        <item>Palakkad</item>-->
+        <!--        <item>Pathanamthitta</item>-->
+        <!--        <item>Thiruvananthapuram</item>-->
+        <!--        <item>Thrissur</item>-->
+        <!--        <item>Wayanad</item>-->
+    </string-array>
+
+    <string-array name="array_madhya_pradesh_districts">
+        <item>Select Your District</item>
+        <item>The Gwalior Sugar Co. Ltd.</item>
+        <item>Jaora Sugar Mills</item>
+        <item>The Bhopal Sugar Industries Ltd.</item>
+        <item>The Jiwaji Rao Sugar Co Ltd.</item>
+        <item>M.P. State Industries Corpn. Ltd.</item>
+        <item>Morena Mandal SSK Ltd.</item>
+        <item>Malwa SSK Ltd.</item>
+        <item>Girdhari Lal Sugar and Allied Industries Ltd.</item>
+        <item>Jawaharlal Nehru Sahakar Soot Mill Ltd.</item>
+        <item>Burhanpur</item>
+        <item>Chachaura</item>
+        <item>Chhatarpur</item>
+        <item>Chhindwara</item>
+        <item>Damoh</item>
+        <item>Datia</item>
+        <item>Dewas</item>
+        <item>Dhar</item>
+        <item>Dindori</item>
+        <item>Guna</item>
+        <item>Gwalior</item>
+        <item>Harda</item>
+        <item>Hoshangabad</item>
+        <item>Indore</item>
+        <item>Jabalpur</item>
+        <item>Jhabua</item>
+        <item>Katni</item>
+        <item>Khandwa</item>
+        <item>Khargone</item>
+        <item>Maihar</item>
+        <item>Mandla</item>
+        <item>Mandsaur</item>
+        <item>Morena</item>
+        <item>Nagda</item>
+        <item>Narsinghpur</item>
+        <item>Neemuch</item>
+        <item>Niwari</item>
+        <item>Panna</item>
+        <item>Raisen</item>
+        <item>Rajgarh</item>
+        <item>Ratlam</item>
+        <item>Rewa</item>
+        <item>Sagar</item>
+        <item>Satna</item>
+        <item>Sehore</item>
+        <item>Seoni</item>
+        <item>Shahdol</item>
+        <item>Shajapur</item>
+        <item>Sheopur</item>
+        <item>Shivpuri</item>
+        <item>Sidhi</item>
+        <item>Singrauli</item>
+        <item>Tikamgarh</item>
+        <item>Ujjain</item>
+        <item>Umaria</item>
+        <item>Vidisha</item>
+    </string-array>
+
+    <string-array name="array_maharashtra_districts">
+        <item>Select Your District</item>
+        <item>Shree Pandurang SSK Ltd.</item>
+        <item>The Saswadmali Sugar Factory Ltd.</item>
+        <item>Sahakar Maharishi Shankarao Mohite Patil SSK Ltd.</item>
+        <item>Shri Shankar SSK Ltd.</item>
+        <item>Shree Sidheshwar SSK Ltd.</item>
+        <item>Vithal SSK Ltd.</item>
+        <item>Bhima SSK Ltd.</item>
+        <item>Bhogawati SSK Ltd.</item>
+        <item>Shri Sant Damaji SSK Ltd.</item>
+        <item>Indra SSK Ltd.</item>
+        <item>Adinath SSK Ltd.</item>
+        <item>Chandrabhaga SSK Ltd.</item>
+        <item>The Ravalgaon Sugar Farm Ltd.</item>
+        <item>Girna SSK Ltd.</item>
+        <item>Karamveer Kakasaheb Wagh SSK Ltd.</item>
+        <item>Kadwa SSK Ltd.</item>
+        <item>Niphad SSK Ltd.</item>
+        <item>Nasik SSK Ltd.</item>
+        <item>Vasantrao Dada Patil SSK Ltd.</item>
+        <item>Shri Changdeo Sugar Mills Ltd.</item>
+        <item>The Kopargaon SSK Ltd.</item>
+        <item>The Pravara SSK Ltd.</item>
+        <item>Ashok SSK Ltd.</item>
+        <item>Shri Ganesh SSK Ltd.</item>
+        <item>The Sanjivani (Takli) SSK Ltd.</item>
+        <item>The Rahuri SSK Ltd.</item>
+        <item>The Shrigonda SSK Ltd.</item>
+        <item>Sangamner Bhag SSK Ltd.</item>
+        <item>Dnyaneshwar SSK Ltd.</item>
+        <item>Shri Jagdamba SSK Ltd.</item>
+        <item>Shri Vrideshwar SSK Ltd.</item>
+        <item>The Mula SSK Ltd.</item>
+        <item>Parner Taluka SSK Ltd.</item>
+        <item>Bhausaheb Mahadeao Hande Agasti SSK Ltd.</item>
+        <item>Kedareshawar SSK Ltd.</item>
+        <item>Bhogawati SSK Ltd.</item>
+        <item>Sh. Chhatrapati SSK Ltd.</item>
+        <item>Shree Panchganga SSK Ltd.</item>
+        <item>Shree Warna SSK Ltd.</item>
+        <item>Kumbhi Keshri SSK Ltd.</item>
+        <item>Shree Dudhganga Vedganga</item>
+        <item>Shri Datta SSK Ltd.</item>
+        <item>Daulat Shetakari SSK Ltd.</item>
+        <item>Gadhinglaj Taluka SSK Ltd.</item>
+        <item>Chhatrapatti Shahu SSK Ltd.</item>
+        <item>Shri Datta SSK Ltd.</item>
+        <item>Jawahar Shetkari SSK Ltd.</item>
+        <item>Ajara Shetakari SSK Ltd.</item>
+        <item>Indapur SSK Ltd.</item>
+        <item>Shri Chhatrapatti SSK Ltd.</item>
+        <item>The Malegaon SSK Ltd.</item>
+        <item>Shree Someshwar SSK Ltd.</item>
+        <item>Yeshwant SSK Ltd.</item>
+        <item>Yavatmal</item>
+        <item>Bhima SSK Ltd.</item>
+        <item>Vighnahar SSK Ltd.</item>
+        <item>Rajgad SSK Ltd.</item>
+        <item>Ghodganga SSK Ltd.</item>
+        <item>Shri Sant Tukaram SSK Ltd. </item>
+        <item>Gangapur SSK Ltd.</item>
+        <item>Sidheshwar SSK Ltd.</item>
+        <item>The Kannad SSK Ltd.</item>
+        <item>The Vinayak SSK Ltd.</item>
+        <item>Shri Santh Ek-Nath SSK Ltd.</item>
+        <item>Shri Namdev Rao B. Gakekar Deogiri SSK Ltd.</item>
+        <item>Krishna SSK Ltd.</item>
+        <item>Shriram SSK Ltd.</item>
+        <item>New Phalthan Sugar Works Ltd.</item>
+        <item>Kisanveer Satara SSK Ltd.</item>
+        <item>Balasaheb Desai SSK Ltd.</item>
+        <item>Sahyadri SSK Ltd.</item>
+        <item>Ajinkyatra SSK Ltd.</item>
+        <item>Jarandeshwar SSK Ltd.</item>
+        <item>Godavari Manar SSK Ltd.</item>
+        <item>Kalambar Vibhag SSK Ltd.</item>
+        <item>Shri Bhaurao Chavan SSK Ltd.</item>
+        <item>Shankar SSK Ltd.</item>
+        <item>JaiAmbika SSK.Ltd.</item>
+        <item>Shree Panzarakan SSK Ltd.</item>
+        <item>Sindkheda SSK Ltd.</item>
+        <item>Shree Satpuda Tapi Parisar SSK Ltd.</item>
+        <item>Pushpadanteshwar SSK Ltd.</item>
+        <item>Sanjay SSK, Dhule, Sindkheda, Amalner Ltd.</item>
+        <item>Shirpur Shetkari SSK Ltd.</item>
+        <item>Jijamata SSK Ltd.</item>
+        <item>Vasant SSK Ltd.</item>
+        <item>Jai Kisan SSK Ltd.</item>
+        <item>Shri Shankar Shetkari SSK Ltd.</item>
+        <item>Pushpawati SSK Ltd.</item>
+        <item>Rajaram Bapu Patil SSK Ltd.</item>
+        <item>Vasantdada Shetkari SSK Ltd.</item>
+        <item>Jath Taluka Shetkari SSK Ltd.</item>
+        <item>Vishwas SSK Ltd.</item>
+        <item>Hutatma kisan Ahir SSK Ltd.</item>
+        <item>Yeshwant SSK Ltd.</item>
+        <item>Mahankali SSK Ltd.</item>
+        <item>Tasgaon Taluka SSK Ltd.</item>
+        <item>Manganga SSK Ltd.</item>
+        <item>Terna Shetkari SSK Ltd.</item>
+        <item>Tulja Bhawani Shetkari SSK</item>
+        <item>The Ambajogai SSK Ltd.</item>
+        <item>Jai Bhavani SSK Ltd.</item>
+        <item>Kada SSK Ltd.</item>
+        <item>Gajanan Coop. Sugar Factory Ltd.</item>
+        <item>Majalgaon SSK Ltd.</item>
+        <item>Madhukar SSK Ltd.</item>
+        <item>Vasant SSK Ltd.</item>
+        <item>Belganga SSK Ltd.</item>
+        <item>Shri Chopada SSK Ltd.</item>
+        <item>Shri Sant Muktabai SSK Ltd.</item>
+        <item>Marathwada SSK Ltd.</item>
+        <item>The Godavari Dudhana SSK Ltd.</item>
+        <item> Purna SSK Ltd.</item>
+        <item>Nirsinha SSK Ltd.</item>
+        <item>Barashiv Hanuman SSK Ltd.</item>
+        <item>Samarth SSK Ltd.</item>
+        <item>Jalna SSK Ltd.</item>
+        <item>Shri Malagaon SSK Ltd.</item>
+        <item>Jai Jawan Jai Kisan SSK Ltd.</item>
+        <item>Shetkari SSK Ltd.</item>
+        <item>Manjara Shetkari SSK Ltd.</item>
+        <item>Shivajirao Patil Nilangakar SSK Ltd.</item>
+        <item>Shetkari SSK Ltd.</item>
+        <item>Shri Kondeshwar SSK Ltd.</item>
+        <item>Shriram SSK Ltd.</item>
+        <item>Mahatma SSK Ltd.</item>
+        <item>The Wainganga SSK Ltd.</item>
+        <item>Balaji SSK Ltd.</item>
+        <item>Akola Zilla SSK Ltd.</item>
+        <item>Jaiwant Patil SSK Ltd.</item>
+        <item>Sonhira SSK Ltd.</item>
+        <item>Natural Sugar and Allied Industries Ltd.</item>
+        <item>Vaidyanath SSK Ltd.</item>
+        <item>Ramganesh Gadkari SSK Ltd.</item>
+        <item>Sahakar Maharshi Late Shri Bapuraoji Deshmukh SSK Ltd.</item>
+        <item>Bhima Shankar SSK Ltd.</item>
+        <item>Kagal Taluka SSK Ltd.</item>
+        <item>Lokmangal Agro Industries Ltd.</item>
+        <item>Ninai Devi SSK LTD.</item>
+        <item>Cane Agro Energy (I) Ltd.</item>
+        <item>Gangamai Sugar Industries Ltd.</item>
+        <item>Balaghat Setkari SSk Ltd.</item>
+        <item>Dwarkadhish Sakhar Karkhana Ltd.</item>
+        <item>Saikrupa Sakkar Karkhana Ltd.</item>
+        <item>Pannageshwar Sugar Mills Ltd. </item>
+        <!--        <item>Vithalrao Shinde SSK Ltd.</item>-->
+        <item>Vikas SSK Ltd.</item>
+        <item>Shree Rameshwar SSK Ltd.</item>
+        <item>Anuradha Sugar Mills Ltd.</item>
+        <item>Chatrapati Sambhaji Raja Sakhar Udyog Ltd.</item>
+        <item>Rayat SSK Ltd.</item>
+        <item>Nagar TK. SSK Ltd.</item>
+        <item>Shri Vithal SSK Ltd.</item>
+        <item>Dr. Babasaheb, Ambedkar SSK.Ltd.</item>
+        <item>Jai Mahesh Sugar Industries Ltd.</item>
+        <item>Yogeshwari Sugar Industries Ltd.</item>
+        <item>6 Loknete Baburao Patil SSK Ltd.</item>
+        <item>Nira Bheema SSK Ltd.</item>
+        <item>Padamshree Dr. Vithal Rao Vikhe Patil SSK Ltd.</item>
+        <item>Sangola TK SSK Ltd.</item>
+        <item>Sharad SSK Ltd.</item>
+        <!--        <item>Sharangdhar Sugar Mills Ltd.</item>-->
+        <item>Shambhu Mahadev Sugar Allied Ind. Ltd.</item>
+        <item>Shri Sand Shirimoni Maruti Maharaj SSK Ltd.</item>
+        <item>Udaisinghrao Gaikwad SSK Ltd.</item>
+        <item>Kranti SSK Ltd.</item>
+        <item>Shivshakti Adiwasi and Megaswargiya SSK Ltd.</item>
+        <item>Priyadarshini Shetkari SSK Ltd.</item>
+        <item>Pratapgad SSK Ltd.</item>
+        <item>Sarvodaya SSK Ltd.</item>
+        <item>Jai Shivshankar SSK Ltd.</item>
+        <item>Mohanrao Shide SSK Ltd.</item>
+        <item>Raver Taluka SSK Ltd. </item>
+        <item>Indira Gandhi Bhartiya Mahila Vikas SSK Ltd.</item>
+        <item>Kukadi SSK Ltd. </item>
+        <item>Hiwaramai Sugar Indus Ltd.</item>
+        <item>Narsinha SSK Ltd. </item>
+        <item>Shri Makai SSK Ltd.</item>
+        <item>Shivshakti Shetkari SSK Ltd.</item>
+        <item>Pad. Dr. D.Y. Patil SSK Ltd.</item>
+        <item>Reva SSK Ltd.</item>
+        <item>Bhima Shankar Sugar Mills Ltd.</item>
+        <item>Vaishnavi Sugar (India)</item>
+        <item>Shri Gurudatt Sugar Ltd.</item>
+        <item> Aadiwasi SSK Navapura Nandurbar Vibhag Ltd.</item>
+        <item>Rajaram Bapu SSK Ltd.</item>
+        <item>Purti Sakhar Kahkhana Ltd.</item>
+        <item>M/s. Shrenath Mhaskoba Sakhar Karkhana Ltd.</item>
+        <item>M/s Vidarbha Sugar Mills Pvt.</item>
+        <item>M/s Sri Saibaba Sugars Ltd. </item>
+        <item>M/s Anurag Sugar Mills Ltd.</item>
+        <item>M/s. Basmati Agro Ltd. </item>
+        <item>M/s.Dharashiv Sakehar Karkhana Ltd.</item>
+        <item>M/s Nalawada Sugar Mills Ltd.</item>
+        <item>M/s Vilhal Sugar Mills Ltd.</item>
+        <item>M/s Bhairavanath Sugar Works Ltd.</item>
+        <item>M/s Lokmangal Sugar Ethanal and Cognesatior Ltd.</item>
+        <item>M/s. Gangakhed Sugar and Energy</item>
+        <item>M/s. Daund Sugar Ltd.</item>
+        <item>M/s. Sagar SSK Ltd.</item>
+        <item>M/s. Samrudhi Sugars Ltd.</item>
+        <item>Mukteshwar Sugars Mills Ltd.</item>
+        <item>M/s. Jaywant Sugar Ltd. </item>
+        <item>M/s.Sidhnath Sugars Mills Ltd.</item>
+        <item>M/s Shri Sant Karmadas SSK Ltd.</item>
+        <item>M/s Hemarus Industries Ltd.</item>
+    </string-array>
+
+    <string-array name="array_manipur_districts">
+        <item>Select Your District</item>
+        <item>Bishnupur</item>
+        <item>Chandel</item>
+        <item>Churachandpur</item>
+        <item>Imphal East</item>
+        <item>Imphal West</item>
+        <item>Jiribam</item>
+        <item>Kakching</item>
+        <item>Kamjong</item>
+        <item>Kangpokpi</item>
+        <item>Noney</item>
+        <item>Pherzawl</item>
+        <item>Senapati</item>
+        <item>Tamenglong</item>
+        <item>Tengnoupal</item>
+        <item>Thoubal</item>
+        <item>Ukhrul</item>
+    </string-array>
+
+    <string-array name="array_meghalaya_districts">
+        <item>Select Your District</item>
+        <item>East Garo Hills</item>
+        <item>East Jaintia Hills</item>
+        <item>East Khasi Hills</item>
+        <item>North Garo Hills</item>
+        <item>Ri Bhoi</item>
+        <item>South Garo Hills</item>
+        <item>South West Garo Hills</item>
+        <item>South West Khasi Hills</item>
+        <item>West Garo Hills</item>
+        <item>West Jaintia Hills</item>
+        <item>West Khasi Hills</item>
+    </string-array>
+
+    <string-array name="array_mizoram_districts">
+        <item>Select Your District</item>
+        <item>Aizawl</item>
+        <item>Champhai</item>
+        <item>Hnahthial</item>
+        <item>Khawzawl</item>
+        <item>Kolasib</item>
+        <item>Lawngtlai</item>
+        <item>Lunglei</item>
+        <item>Mamit</item>
+        <item>Saiha</item>
+        <item>Saitual</item>
+        <item>Serchhip</item>
+    </string-array>
+
+    <string-array name="array_nagaland_districts">
+        <item>Select Your District</item>
+        <item>Nagaland Sugar Mills Co. Ltd.</item>
+        <!--        <item>Kiphire</item>-->
+        <!--        <item>Kohima</item>-->
+        <!--        <item>Longleng</item>-->
+        <!--        <item>Mokokchung</item>-->
+        <!--        <item>Mon</item>-->
+        <!--        <item>Peren</item>-->
+        <!--        <item>Phek</item>-->
+        <!--        <item>Tuensang</item>-->
+        <!--        <item>Wokha</item>-->
+        <!--        <item>Zunheboto</item>-->
+        <!--        <item>Noklak</item>-->
+    </string-array>
+
+    <string-array name="array_odisha_districts">
+        <item>Select Your District</item>
+        <item>Jeypore Sugar Co. Ltd.</item>
+        <item>The Aska Coop. Sugar Industries Ltd.</item>
+        <item>The Baragarh Coop. Sugar Mills Ltd.</item>
+        <item>Nayagarh Sugar Complex Ltd.</item>
+        <item>Badamba coop. Sugar Industries Ltd.</item>
+        <item>Western India Sugar and Chemicals Industries Ltd.</item>
+        <item>Bijaynanda Coop.Sugar Mills Ltd.</item>
+        <item>Sakthi Sugars Ltd.</item>
+        <!--        <item>Dhenkanal</item>-->
+        <!--        <item>Gajapati</item>-->
+        <!--        <item>Ganjam</item>-->
+        <!--        <item>Jagatsinghpur</item>-->
+        <!--        <item>Jajpur</item>-->
+        <!--        <item>Jharsuguda</item>-->
+        <!--        <item>Kalahandi</item>-->
+        <!--        <item>Kandhamal</item>-->
+        <!--        <item>Kendrapara</item>-->
+        <!--        <item>Kendujhar</item>-->
+        <!--        <item>Khordha</item>-->
+        <!--        <item>Koraput</item>-->
+        <!--        <item>Malkangiri</item>-->
+        <!--        <item>Mayurbhanj</item>-->
+        <!--        <item>Nabarangpur</item>-->
+        <!--        <item>Nayagarh</item>-->
+        <!--        <item>Nuapada</item>-->
+        <!--        <item>Puri</item>-->
+        <!--        <item>Rayagada</item>-->
+        <!--        <item>Sambalpur</item>-->
+        <!--        <item>Subarnapur</item>-->
+        <!--        <item>Sundergarh</item>-->
+    </string-array>
+
+    <string-array name="array_punjab_districts">
+        <item>Select Your District</item>
+        <item>The Morinda Coop. Sugar Mills Ltd</item>
+        <item>Wahid Sandhar Sugars Ltd.</item>
+        <item>Bhagwanpura Sugar Mills Ltd.</item>
+        <item>The Bhogpur Coop. Sugar Mills Ltd.</item>
+        <item>Nakodar Coop. Sugar Mills Ltd</item>
+        <item>The Doaba Coop. Sugar Mills Ltd</item>
+        <item>The Batala Coop. Sugar Mills Ltd.</item>
+        <item>Gurdaspur Coop. Sugar Mills Ltd</item>
+        <item>Zira Coop. Sugar Mills Ltd.</item>
+        <item>Fazilka Coop. Sugar Mills Ltd.</item>
+        <item>Budhewal Coop. Sugar Mills Ltd.</item>
+        <item>The Jagraon Coop. Sugar Mills Ltd</item>
+        <item>Taran Taran Coop. Sugar Mills Ltd.</item>
+        <item>The Ajnala Coop. Sugar Mills ltd.</item>
+        <item>Rana Sugars Ltd.</item>
+        <item>The Budhlada Coop. Sugar Mills Ltd.</item>
+        <item>The Faridkot Coop. Sugar Mills Ltd.</item>
+        <item>Oswal Sugars Ltd.</item>
+        <item>Patiala Coop. Sugar Mills Ltd.</item>
+        <item>Piccadily Sugars and Allied Industries Ltd.</item>
+        <item>Nahar Sugar and Allied Industries Ltd.</item>
+        <item>The Punjab State Federation of Coop. Sugar Mills Ltd.</item>
+        <item>Markfed Sugar and Allied Coop</item>
+        <item>M/s. Chadha Sugar and Industries Ltd.</item>
+    </string-array>
+
+    <string-array name="array_rajasthan_districts">
+        <item>Select Your District</item>
+        <item>The Mewar Sugar Mills Ltd.</item>
+        <item>The Ganganagar Sugar Mills Ltd.</item>
+        <item>Shri Keshoraipatan Sahakari Sugar Mills Ltd.</item>
+        <!--        <item>Baran</item>-->
+        <!--        <item>Barmer</item>-->
+        <!--        <item>Bharatpur</item>-->
+        <!--        <item>Bhilwara</item>-->
+        <!--        <item>Bikaner</item>-->
+        <!--        <item>Bundi</item>-->
+        <!--        <item>Chittorgarh</item>-->
+        <!--        <item>Churu</item>-->
+        <!--        <item>Dausa</item>-->
+        <!--        <item>Dholpur</item>-->
+        <!--        <item>Dungarpur</item>-->
+        <!--        <item>Sri Ganganagar</item>-->
+        <!--        <item>Hanumangarh</item>-->
+        <!--        <item>Jaipur</item>-->
+        <!--        <item>Jaisalmer</item>-->
+        <!--        <item>Jalore</item>-->
+        <!--        <item>Jhalawar</item>-->
+        <!--        <item>Jhunjhunu</item>-->
+        <!--        <item>Jodhpur</item>-->
+        <!--        <item>Karauli</item>-->
+        <!--        <item>Kota</item>-->
+        <!--        <item>Nagaur</item>-->
+        <!--        <item>Pali</item>-->
+        <!--        <item>Pratapgarh</item>-->
+        <!--        <item>Rajsamand</item>-->
+        <!--        <item>Sawai Madhopur</item>-->
+        <!--        <item>Sikar</item>-->
+        <!--        <item>Sirohi</item>-->
+        <!--        <item>Tonk</item>-->
+        <!--        <item>Udaipur</item>-->
+    </string-array>
+
+    <string-array name="array_sikkim_districts">
+        <item>Select Your District</item>
+        <item>East Sikkim</item>
+        <item>North Sikkim</item>
+        <item>South Sikkim</item>
+        <item>West Sikkim</item>
+    </string-array>
+
+    <string-array name="array_tamil_nadu_districts">
+        <item>Select Your District</item>
+        <item>EID Parry(India)Ltd.</item>
+        <item>Kothari Sugars and Chemicals Ltd.</item>
+        <item>Perambalur Sugar Mills Ltd.</item>
+        <item>Shree Ambika Sugars Ltd.</item>
+        <item>Kallakurichi Coop. Sugar Mills Ltd.</item>
+        <item>The Kallakurichi-II Coop. Sugar Mills Ltd.</item>
+        <item>Chengalrayan Coop. Sugar Mills Ltd.</item>
+        <!--        <item>Erode</item>-->
+        <!--        <item>Kallakurichi</item>-->
+        <!--        <item>Kanchipuram</item>-->
+        <!--        <item>Kanyakumari</item>-->
+        <!--        <item>Karur</item>-->
+        <!--        <item>Krishnagiri</item>-->
+        <!--        <item>Madurai</item>-->
+        <!--        <item>Mayiladuthurai</item>-->
+        <!--        <item>Nagapattinam</item>-->
+        <!--        <item>Namakkal</item>-->
+        <!--        <item>Nilgiris</item>-->
+        <!--        <item>Perambalur</item>-->
+        <!--        <item>Pudukkottai</item>-->
+        <!--        <item>Ramanathapuram</item>-->
+        <!--        <item>Ranipet</item>-->
+        <!--        <item>Salem</item>-->
+        <!--        <item>Sivaganga</item>-->
+        <!--        <item>Tenkasi</item>-->
+        <!--        <item>Thanjavur</item>-->
+        <!--        <item>Theni</item>-->
+        <!--        <item>Thoothukudi</item>-->
+        <!--        <item>Tiruchirappalli</item>-->
+        <!--        <item>Tirunelveli</item>-->
+        <!--        <item>Tirupattur</item>-->
+        <!--        <item>Tiruppur</item>-->
+        <!--        <item>Tiruvallur</item>-->
+        <!--        <item>Tiruvannamalai</item>-->
+        <!--        <item>Tiruvarur</item>-->
+        <!--        <item>Vellore</item>-->
+        <!--        <item>Viluppuram</item>-->
+        <!--        <item>Virudhunagar</item>-->
+    </string-array>
+
+    <string-array name="array_telangana_districts">
+        <item>Select Your District</item>
+        <item>Adilabad</item>
+        <item>Bhadradri Kothagudem</item>
+        <item>Hyderabad</item>
+        <item>Jagtial</item>
+        <item>Jangaon</item>
+        <item>Jayashankar Bhupalpally</item>
+        <item>Jogulamba Gadwal</item>
+        <item>Kamareddy</item>
+        <item>Karimnagar</item>
+        <item>Khammam</item>
+        <item>Komaram Bheem</item>
+        <item>Mahabubabad</item>
+        <item>Mahbubnagar</item>
+        <item>Mancherial</item>
+        <item>Medak</item>
+        <item>Medchal</item>
+        <item>Mulugu</item>
+        <item>Nagarkurnool</item>
+        <item>Nalgonda</item>
+        <item>Narayanpet</item>
+        <item>Nirmal</item>
+        <item>Nizamabad</item>
+        <item>Peddapalli</item>
+        <item>Rajanna Sircilla</item>
+        <item>Ranga Reddy</item>
+        <item>Sangareddy</item>
+        <item>Siddipet</item>
+        <item>Suryapet</item>
+        <item>Vikarabad</item>
+        <item>Wanaparthy</item>
+        <item>Warangal Rural</item>
+        <item>Warangal Urban</item>
+        <item>Yadadri Bhuvanagiri</item>
+    </string-array>
+
+    <string-array name="array_tripura_districts">
+        <item>Select Your District</item>
+        <item>Dhalai</item>
+        <item>Gomati</item>
+        <item>Khowai</item>
+        <item>North Tripura</item>
+        <item>Sepahijala</item>
+        <item>South Tripura</item>
+        <item>Unakoti</item>
+        <item>West Tripura</item>
+    </string-array>
+
+    <string-array name="array_uttar_pradesh_districts">
+        <item>Select Your District</item>
+        <item>The Modi Industries Ltd.</item>
+        <item>The Simbhaoli Sugar Mills Pvt. Ltd.</item>
+        <item>The U.P. State Sugar Corpn. Ltd.</item>
+        <item>Daurala Sugar Works</item>
+        <item>The U.P. State Sugar Corpn. Ltd</item>
+        <item>The Bagpat Coop. Sugar Mills Ltd.</item>
+        <item>The Ramala Sahakari Chini Mill Ltd.</item>
+        <item>SBEC Sugar Ltd.</item>
+        <item>The Triveni Engineering Works Ltd</item>
+        <item>Mansurpur Sugar Mills Ltd., </item>
+        <item>U.P. State Sugar Corpn. Ltd</item>
+        <item>The Upper Doab Sugar Mills Ltd</item>
+        <item>The Ganga Kisan Sahakari Chini Mills Ltd.</item>
+        <item>Sir Shadi Lal Enterprises Ltd.</item>
+        <item>Siel Ltd.</item>
+        <item>Tikaula Sugar Mills Ltd.</item>
+        <item>U.P. State Sugar Corpn. Ltd.</item>
+        <item>Kisan Sahakari Chini Mills. Ltd.</item>
+        <item>Willard India Ltd.</item>
+        <item>Triveni Engg and Industries Ltd.</item>
+        <item>U.P. State Sugar Corpn. Ltd</item>
+        <item>Kisan Coop. Sugar Factory. Ltd</item>
+        <item>Shakumbari Sugar and Allied Industries Ltd.</item>
+        <item>The Kisan Sahakari Chini Mills Ltd.</item>
+        <item>The U.P. State Sugar Corpn. Ltd.</item>
+        <item>Upper Ganges Sugar and Industries Ltd.</item>
+        <item>The Dhampur Sugar Mills Ltd.</item>
+        <item>U.P. State Sugar Corpn. Ltd.</item>
+        <item>Kisan Sahakari Chini Mills Ltd.</item>
+        <item>Dwarikesh Sugar Ind. Ltd.</item>
+        <item>The Ajudia Sugar Mills</item>
+        <item>U.P. State Sugar Corpn.Ltd. </item>
+        <item>The Kisan Sahakari Chini Mills Ltd.</item>
+        <item>Wave Industries. Ltd.</item>
+        <item>Venus Sugar Ltd.</item>
+        <item>Dhampur Sugar Mills Ltd.</item>
+        <item>Rudra Bilas kisan Sahakar Chini Mills Ltd.</item>
+        <item>The Kesar Enterprises Ltd.</item>
+        <item>Kisan Sahakari Chini Mills Ltd.</item>
+        <item> J.K. Industries Ltd.</item>
+        <item>Oswal Overseas Ltd.</item>
+        <item>Rosa Sugar Works Ltd.</item>
+        <item>Kisan Sahakari Chini Mills</item>
+        <item>The kisan Sahakari Chini </item>
+        <item>L.H. Sugar Factories Ltd.</item>
+        <item>The Kisan Coop. Sugar Factory Ltd.</item>
+        <item>Bisalpur Kisan Sahakari Chini Mills Ltd.</item>
+        <item>Kisan Sahakari Chini Mills Ltd.</item>
+        <item>Shervani Sugar Syndicate Ltd</item>
+        <item>The Oudh Sugar Mills Ltd.</item>
+        <item>The Seksaria Biswan Sugar Factory Ltd.</item>
+        <item>Kisan Sahakari Chini Mills Ltd.</item>
+        <item>Dalmia Cement (Bharat) Ltd.</item>
+        <item>Bajaj Hindustan Ltd.</item>
+        <item>The Gobind Sugar Mills Ltd.</item>
+        <item>The Sarjoo Sahakari Chini Mills Ltd.</item>
+        <item>Bajaj Hindustan Ltd.</item>
+        <item>Kisan Sahakari Chini Mills Ltd.</item>
+        <item>DCM Shriram Consolidated Ltd</item>
+        <item>M/s. DCM-Shriram Consolidated Ltd.</item>
+        <item>The United Provinces Sugar Co. Ltd.</item>
+        <item>U.P. State Sugar Corpn. Ltd.</item>
+        <item>Cawnpore Sugar Works Ltd.</item>
+        <item>M/s Bajaj Hindustan Ltd.</item>
+        <item>The U.P. State Sugar Corpn Ltd.</item>
+        <item>Saraya Sugar Mills Pvt. Ltd.</item>
+        <item>U.P. State Sugar Corpn. Ltd.</item>
+        <item>U.P. State Sugar Corpn. Ltd.</item>
+        <item>Swadeshi Mining and Manufacturing Co. Ltd.</item>
+        <item>J.H.V. Sugar Corporation Ltd</item>
+        <item>The Basti Sugar Mills Co. Ltd</item>
+        <item>Govindnagar Sugar Ltd.</item>
+        <item>Khalilabad Sugar Mills Pvt. Ltd.</item>
+        <item>The Balrampur Chini Mills Ltd.</item>
+        <item>Balrampur Chini Mills Ltd.</item>
+        <item>Tulsipur Sugar Co. Ltd.</item>
+        <item>Indo Gulf Industries Ltd.</item>
+        <item>The U.P. State Sugar Corpn. Ltd</item>
+        <item>Sravasthi Kisan Sahakari.</item>
+        <item>Chilwaria Sugar and Chemicals</item>
+        <item>Dhampur Sugar Mills Ltd.</item>
+        <item>Kamalapat Motilal Sugar</item>
+        <item>Kashi Sahakari Chini Mills Ltd.</item>
+        <item>The Kisan Sahakari Chini Mills Ltd.</item>
+        <item>Chhata Sugar Co. Ltd.</item>
+        <item>Nandganj Sihori Sugar Co Ltd.</item>
+        <item>Ghatampur Sugar Co. Ltd.</item>
+        <item>Daya Sugar,Naya Baas</item>
+        <item>Dewan Sugars Ltd.</item>
+        <item>Kamlapur Sugar and I. Ltd.</item>
+        <item>M/s Anand Agrochem India Ltd</item>
+        <item>Dwarikesh Sugar Industries Ltd.</item>
+        <item>M/s Mawana Sugars Ltd.</item>
+        <item>M/s Parle Biscuits Pvt. Ltd.</item>
+        <item>M/s Triveni Engg. and Industries Ltd.</item>
+        <item>M/s Uttam Sugar Mills Ltd.</item>
+        <!--        <item>Varanasi</item>-->
+        <!--        <item>Varanasi</item>-->
+        <!--        <item>Varanasi</item>-->
+        <!--        <item>Varanasi</item>-->
+        <!--        <item>Varanasi</item>-->
+        <!--        <item>Varanasi</item>-->
+    </string-array>
+
+    <string-array name="array_uttarakhand_districts">
+        <item>Select Your District</item>
+        <item>Rai Bhadur Narain Singh Sugar Mills Pvt. Ltd.</item>
+        <item>The Mahalakshmi Sugar Mills Co. Ltd.</item>
+        <item>DSM Agro Products Ltd.</item>
+        <item>The Bazpur Coop. Sugar Factory Ltd.</item>
+        <item>Kichha Sugar Co. Ltd.</item>
+        <item>Kisan Sahakari Chini Mills Ltd.</item>
+        <item>Kisan Sahakari Chini Mills Ltd.</item>
+        <item>Uttam Sugar Mills Ltd.</item>
+        <!--        <item>Pithoragarh</item>-->
+        <!--        <item>Rudraprayag</item>-->
+        <!--        <item>Tehri</item>-->
+        <!--        <item>Udham Singh Nagar</item>-->
+        <!--        <item>Uttarkashi</item>-->
+    </string-array>
+
+    <string-array name="array_west_bengal_districts">
+        <item>Select Your District</item>
+        <item>Khaithan Agro Industries Ltd.</item>
+        <item>West Bengal Sugar Industries Development Ltd.</item>
+        <item>Shri Renuka Sugars Ltd.</item>
+        <!--        <item>Cooch Behar</item>-->
+        <!--        <item>Dakshin Dinajpur</item>-->
+        <!--        <item>Darjeeling</item>-->
+        <!--        <item>Hooghly</item>-->
+        <!--        <item>Howrah</item>-->
+        <!--        <item>Jalpaiguri</item>-->
+        <!--        <item>Jhargram</item>-->
+        <!--        <item>Kalimpong</item>-->
+        <!--        <item>Kolkata</item>-->
+        <!--        <item>Malda</item>-->
+        <!--        <item>Murshidabad</item>-->
+        <!--        <item>Nadia</item>-->
+        <!--        <item>North 24 Parganas</item>-->
+        <!--        <item>Paschim Bardhaman</item>-->
+        <!--        <item>Paschim Medinipur</item>-->
+        <!--        <item>Purba Bardhaman</item>-->
+        <!--        <item>Purba Medinipur</item>-->
+        <!--        <item>Purulia</item>-->
+        <!--        <item>South 24 Parganas</item>-->
+        <!--        <item>Uttar Dinajpur</item>-->
+    </string-array>
+
+    <string-array name="array_andaman_nicobar_districts">
+        <item>Select Your District</item>
+        <item>Nicobar</item>
+        <item>North Middle Andaman</item>
+        <item>South Andaman</item>
+    </string-array>
+
+    <string-array name="array_chandigarh_districts">
+        <item>Chandigarh</item>
+    </string-array>
+
+    <string-array name="array_dadra_nagar_haveli_districts">
+        <item>M/s. Dadra Nagar Haveli Sahakari Khand Udyog Mandali Ltd.</item>
+    </string-array>
+
+    <string-array name="array_daman_diu_districts">
+        <item>Select Your District</item>
+        <item>Daman</item>
+        <item>Diu</item>
+    </string-array>
+
+    <string-array name="array_delhi_districts">
+        <item>Select Your District</item>
+        <item>Central Delhi</item>
+        <item>East Delhi</item>
+        <item>New Delhi</item>
+        <item>North Delhi</item>
+        <item>North East Delhi</item>
+        <item>North West Delhi</item>
+        <item>Shahdara</item>
+        <item>South Delhi</item>
+        <item>South East Delhi</item>
+        <item>South West Delhi</item>
+        <item>West Delhi</item>
+    </string-array>
+
+    <string-array name="array_lakshadweep_districts">
+        <item>Lakshadweep</item>
+    </string-array>
+
+    <string-array name="array_ladakh_districts">
+        <item>Select Your District</item>
+        <item>Kargil</item>
+        <item>Leh</item>
+    </string-array>
+
+    <string-array name="array_puducherry_districts">
+        <item>Select Your District</item>
+        <item>New Horizon Sugar Mills Pvt. Ltd.</item>
+        <item>The Pondicherry Coop Sugar Mills Ltd.</item>
+        <!--        <item>Puducherry</item>-->
+        <!--        <item>Yanam</item>-->
+    </string-array>
+</resources>
